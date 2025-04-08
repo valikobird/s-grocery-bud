@@ -13,6 +13,17 @@ html {
 } /*16px*/
 
 :root {
+  /* colors */
+  --primary-100: #dae6f0;
+  --primary-200: #b5cde1;
+  --primary-300: #90b4d2;
+  --primary-400: #6b9bc3;
+  --primary-500: #4682b4;
+  --primary-600: #386890;
+  --primary-700: #2a4e6c;
+  --primary-800: #1c3448;
+  --primary-900: #0e1a24;
+
   --backgroundColor: #f8fafc;
   --textColor: #0f172a;
 }
@@ -53,7 +64,7 @@ ul {
 /* ============= PROJECT CSS =============== */
 
 .container {
-  --accentColor: #06b6d4;
+  --accentColor: var(--primary-600);
 
   margin: 5rem auto;
   padding: 2rem;
@@ -123,7 +134,7 @@ ul {
       border-color: transparent;
       padding: 0.25rem 0.5rem;
       color: white;
-      background-color: #222222d6;
+      background-color: var(--primary-600);
       text-transform: capitalize;
       box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.06),
         0 1px 3px 0 rgba(0, 0, 0, 0.1);
